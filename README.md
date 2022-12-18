@@ -66,3 +66,5 @@ With the ```Dockfile``` in root, you can easily build the service's docker image
 docker build -t fibonacci ./
 ```
 
+## Access the Service From Public IP:
+Send json (like the example above) with post request to URL: http://18.183.79.67:80/fibonacci, you can get reply json too
