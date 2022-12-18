@@ -16,14 +16,15 @@ java -jar target target\SA55_XIEWENWEN_fibonacci-1.0-SNAPSHOT.jar server FBConfi
 ```
 
 ## How to test the service
-This micro service doesn't come with any frontend/UI, if you wanna test the service locally, you need to send a ```JSON``` structure with ```POST``` method to ```localhost:8080/fibonacci```, the ```JSON``` format is like
+This micro service doesn't come with any frontend/UI, if you wanna test the service locally, you need to send a ```JSON``` structure with ```POST``` method to ```localhost:8080/fibonacci```, the ```JSON``` format is like:
 
 ```json
 {
   "elements": 10
 }
 ```
-```elements``` is the length of the fibonacci sequence.
+```elements``` is the length of the fibonacci sequence. You can use http client like Postman to do this test.
+
 The return value will be like this:
 ```json
 {
