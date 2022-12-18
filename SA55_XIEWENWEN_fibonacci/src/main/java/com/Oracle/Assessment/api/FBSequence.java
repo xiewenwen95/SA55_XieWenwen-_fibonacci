@@ -6,14 +6,14 @@ import java.util.ArrayList;
 
 public class FBSequence {
     private ArrayList<Integer> fibonacci;
-    private ArrayList<Integer> sort;
+    private ArrayList<Integer> sorted;
 
     public FBSequence() {
     }
 
-    public FBSequence(ArrayList<Integer> fibonacci, ArrayList<Integer> sort) {
+    public FBSequence(ArrayList<Integer> fibonacci, ArrayList<Integer> sorted) {
         this.fibonacci = fibonacci;
-        this.sort = sort;
+        this.sorted = sorted;
     }
 
     @JsonProperty
@@ -22,8 +22,8 @@ public class FBSequence {
     }
 
     @JsonProperty
-    public ArrayList<Integer> getSort() {
-        return sort;
+    public ArrayList<Integer> getSorted() {
+        return sorted;
     }
 
 }

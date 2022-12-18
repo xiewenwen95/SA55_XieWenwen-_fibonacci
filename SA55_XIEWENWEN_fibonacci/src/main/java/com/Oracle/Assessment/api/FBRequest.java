@@ -3,16 +3,16 @@ package com.Oracle.Assessment.api;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class FBRequest {
-    private Integer element=0;
+    private Integer elements=0;
 
     public FBRequest() {
     }
 
-    public FBRequest(Integer element){
-        this.element = element;
+    public FBRequest(Integer elements){
+        this.elements = elements;
     }
     @JsonProperty
-    public Integer getElement() {
-        return element;
+    public Integer getElements() {
+        return elements;
     }
 }
